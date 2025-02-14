@@ -194,10 +194,12 @@
 // let number= +prompt("Enter Your Number (Even and Odd)")
 // if(number % 2==0){
 //         alert("This number is a even number")
-
 // }
-// else{
-//     alert("This is odd number")
+// else if(number%2!==0){
+//     alert("This number is a odd number")
+// }
+//  else{
+//     alert("Try again")
 // }
 // Qno:10 Write a program that takes temperature as input and shows a message based on following criteria
 // a. T > 40 then “It is too hot outside.”
@@ -263,16 +265,18 @@
 // let character=prompt("Please enter your character to checks whether the given input is a number, uppercase letter or lower case letter")
 // let value = character.charCodeAt(0);
 
-// checking of a number
+// // checking of a number
 // if(value >= 48 && value<=57){
-//     alert(character+" is number")
+//     alert(character+" is letter")
 // }
-// checking uppercase
+// // checking uppercase
 // else if(value>=65 && value<=90){
-//     alert(character+" is uppercase number")
+    
+//     alert(character+" is uppercase letter")
 // }
+// // checking lower case
 // else if(value>=97 && value<=122){
-//     alert(character+" is lower case number")
+//     alert(character+" is lower case letter")
 // }
 // else{
 //     alert("please enter the number or letter")
@@ -485,8 +489,8 @@
 // Qno:12 Write a program to create a single string from the below mentioned array: 
  // var arr = [“This ”, “ is ”, “ my ”, “ cat”];
 // (Use array’s join method)
-// let arr = ["This "," is"," my"," cat"];
-// let string= arr.join("");
+// let arr = ["This","is","my","cat"];
+// let string= arr.join(" ");
 // console.log(string);
 // document.write("<b>Array: </b>"+"<br />"+arr +"<br />")
 // document.write("<b>Strings: </b>"+"<br />"+string)
@@ -523,6 +527,8 @@
 // document.write("<option>"+mobileMenu[index++]+"</option>")
 
 // document.write("<select>")
+
+// ===========================================End of the chapter===========================================
 
 
 
